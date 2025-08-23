@@ -11,12 +11,14 @@ export default defineConfig({
   },
   resolve: {
     alias: {
+      buffer: 'buffer',
       util: 'util',
     },
   },
   optimizeDeps: {
     exclude: ['lucide-react'],
     include: [
+      'buffer',
       'process',
       'util',
       '@solana/web3.js',
