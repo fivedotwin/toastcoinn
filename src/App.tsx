@@ -160,7 +160,7 @@ function App() {
             </div>
           )}
 
-          {filteredAndSortedLaunches.length === 0 && !loading && (
+          {/* {filteredAndSortedLaunches.length === 0 && !loading && (
             <div className="text-center py-12 sm:py-20">
               <div className="w-16 h-16 sm:w-24 sm:h-24 mx-auto mb-4 sm:mb-6 bg-gray-100 border-2 border-black flex items-center justify-center">
                 <Search className="w-6 h-6 sm:w-10 sm:h-10 text-gray-400" />
@@ -168,7 +168,7 @@ function App() {
               <h3 className="text-lg sm:text-2xl font-bold text-black mb-2 uppercase tracking-wider">No launches found</h3>
               <p className="text-sm sm:text-base text-gray-600 uppercase tracking-wide px-4">Try adjusting your search terms or filters</p>
             </div>
-          )}
+          )} */}
         </div>
 
         {/* Launch Detail Modal */}
